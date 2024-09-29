@@ -1,0 +1,21 @@
+
+{% extends 'base_generic.html' %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header text-center">
+                <h4>Confirm Logout</h4>
+            </div>
+            <div class="card-body text-center">
+                <p>Are you sure you want to log out?</p>
+                <a href="logouts" class="btn btn-danger btn-block">Logout</a>
+                <a href="dashboard/" class="btn btn-secondary btn-block">Cancel</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
